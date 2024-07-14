@@ -1,6 +1,9 @@
-# Airbnb Swift Style Guide
+# Airbnb Swift Style Guide [Suhayb's fork]
 
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fairbnb%2Fswift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/airbnb/swift)
+
+# NOTE from Suhayb
+This is a fork of Airbnb's swift repo v1.0.7, the only change is I use tabs (size 2) instead of spaces.
 
 ## Goals
 
@@ -23,7 +26,7 @@ Note that brevity is not a primary goal. Code should be made more concise only i
   * For rules that don't directly change the format of the code, we should have a lint rule that throws a warning.
   * Exceptions to these rules should be rare and heavily justified.
 
-## Swift Package Manager command plugin
+## Swift Package Manager command plugin [Modified by Suhayb]
 
 This repo includes a Swift Package Manager command plugin that you can use to automatically reformat or lint your package according to the style guide. To use this command plugin with your package, all you need to do is add this repo as a dependency:
 
